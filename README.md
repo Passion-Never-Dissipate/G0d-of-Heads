@@ -1,9 +1,23 @@
-#G0d of Head by SeeU_SAMA@Passion_Never_Dissipate(PND redstone server)
-#头颅的上帝插件 作者SeeU_SAMA，来自PND生电服
-Our QQ channel is 417086159
-The purpose of this plugin is to let players get their heads directly and quickly.
-Use !!head <player> [amount] command to get a a specific player's head, this command supports up to a stack of heads. If [amount] is not given, the default value is 1.
+# GOD OF HEADS
+---------
+一个简单的获取任意数量玩家头颅的插件。
 
-我们的QQ群聊为417086159
-本插件旨在让玩家便捷的获取任意玩家的头颅。
-考虑到head词汇比skull简单，使用!!head <玩家名称> [获取数量] 来获取指定玩家的头颅，获取数量尽量保持在一组以内。当未指定获取数量时，其默认值为1。
+需要 `v2.6.0` 以上的 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged)
+
+##  命令基本说明
+
+`!!head <玩家X名称> [数量Y]` 获取玩家X的头颅Y个，当Y未指定时，默认为1。
+
+建议获取数量不要超过一组。
+
+@PND原版技术生存群组服
+
+QQ交流群：417086159
+
+
+
+
+
+
+
+
