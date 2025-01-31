@@ -1,0 +1,11 @@
+{
+  "id": "godofhead",
+  "version": "1.0.0",
+  "name": "G0d Of Head",
+  "description": "获取玩家的脑袋",
+  "author": "SeeU_SAMA",
+  "dependencies": {
+    "mcdreforged": ">=2.6.0"
+  },
+  "link": "https://github.com/SeeU-SAMA/G0d-of-head"
+}
