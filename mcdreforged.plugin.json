@@ -1,11 +1,15 @@
 {
-  "id": "godofhead",
+  "id": "g0d_of_heads",
   "version": "1.0.0",
-  "name": "G0d Of Head",
+  "name": "G0d of Heads",
   "description": "获取任意玩家的任意数量的头颅",
-  "author": "SeeU_SAMA",
+  "author": "SeeU_SAMA,FRUITS_CANDY",
   "dependencies": {
     "mcdreforged": ">=2.6.0"
   },
-  "link": "https://github.com/Passion-Never-Dissipate/G0d-of-Heads"
+  "link": "https://github.com/Passion-Never-Dissipate/G0d-of-Heads",
+  "archive_name": "G0d-of-Heads-v{version}",
+	"resources": [
+		"LICENSE"
+	]
 }
