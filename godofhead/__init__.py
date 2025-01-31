@@ -5,7 +5,7 @@ version = '1.0.0'
 
 def on_load(server, params):
     server.logger.info('正在注册指令')
-    server.register_help_message('!!head <player> [个数]', '获取指定玩家的头颅,支持同时获取多个。')
+    server.register_help_message('!!head <玩家名称X> [获取个数Y]', '获取指定玩家X的头颅,获取Y个，当Y未指定时，默认值为1。')
 
 
 
@@ -18,7 +18,7 @@ def on_info(server: ServerInterface, info: Info):
 def give_heads(server, info):
     info.cancel_send_to_server()
 
-    #正则解参,获取
+    #正则解参,匹配格式
     match = re.match(r'^!!head\s+(\S+)(?:\s+(\d+))?$', info.content)
     if not match:
         server.reply(info, '指令格式错误！正确的格式为 !!head <player> [数量]。')
