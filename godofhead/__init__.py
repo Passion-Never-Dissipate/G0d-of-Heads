@@ -27,7 +27,7 @@ def give_heads(server, info):
     owner = info.player
     player = match.group(1)
     quantity = match.group(2) if match.group(2) is not None else 1
-
+    message = '§b[GOH] 已给予你§f[{0}]§b个{1} 的头颅'.format(quantity,player)
     server.logger.info('GOH:{} 获取了 {} 的头颅'.format(owner, player))
     server.execute('execute at {0} run give {0} minecraft:player_head{{SkullOwner:"{1}"}} {2}'.format(owner, player, quantity))
     server.reply(info, message)
