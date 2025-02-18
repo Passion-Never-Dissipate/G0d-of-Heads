@@ -10,7 +10,7 @@
 
 建议获取数量不要超过一组。
 
-@PND原版技术生存群组服
+[PND](https://github.com/orgs/Passion-Never-Dissipate/repositories)原版技术生存群组服
 
 QQ交流群：417086159
 
