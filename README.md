@@ -1,6 +1,6 @@
 # GOD OF HEADS
 ---------
-一个简单的获取任意数量玩家头颅的插件。
+一个简单的获取任意数量玩家头颅的插件。请注意，1.21版本尚未被支持，你可以自行更改对应的指令。
 
 需要 `v2.6.0` 以上的 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged)
 
